@@ -1,0 +1,55 @@
+{
+    "name": "HelloWorld-chrome-extension",
+    "version": "0.0.1",
+    "dependencies": {
+        "jquery": "~2.0.3",
+        "bootstrap": "~3.0.2",
+        "backbone.marionette": "~1.2.2",
+        "requirejs": "~2.1.9",
+        "r.js": "~2.1.9",
+        "underscore-amd": "~1.5.2",
+        "backbone-amd": "~1.1.0",
+        "backbone.babysitter": "~0.0.6",
+        "backbone.wreqr": "~0.2.0",
+        "requirejs-text": "~2.0.10",
+        "zepto": "~1.0.0"
+    },
+    "exportsOverride": {
+        "jquery": {
+            "js": "jquery.js"
+        },
+        "zepto": {
+            "js": "zepto.js"
+        },
+        "requirejs": {
+            "js": "require.js"
+        },
+        "requirejs-text": {
+            "js": "text.js"
+        },
+        "underscore-amd": {
+            "js": "underscore.js"
+        },
+        "backbone-amd": {
+            "js": "backbone.js"
+        },
+        "bootstrap": {
+            "js": "dist/js/bootstrap.js",
+            "css": "dist/css/bootstrap.css"
+        }
+    },
+    "description": "hello World chrome extension",
+    "authors": [
+        "Shankar Morwal"
+    ],
+    "license": "PRIVATE",
+    "private": true,
+    "ignore": [
+        "**/.*",
+        "node_modules",
+        "bower_components",
+        "app/bower_components",
+        "test",
+        "tests"
+    ]
+}

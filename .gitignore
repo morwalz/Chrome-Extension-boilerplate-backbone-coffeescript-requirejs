@@ -1,0 +1,9 @@
+temp
+.tmp
+.sass-cache
+.idea/
+tmp/
+*.bak
+node_modules/
+dist/
+node_modules.zip

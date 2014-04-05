@@ -1,0 +1,28 @@
+@charset "utf-8";
+/* CSS Document */
+
+.clear {clear:both;}
+.ftl {float:left;}
+.ftr {float:right;}
+.vrtAM {vertical-align:middle; !important}
+.smlTxt {font-size:11px;}
+.textAlgnCentr {text-align: center !important;}
+.padL0 {padding-left:0 !important;}
+.padR0 {padding-right:0 !important;}
+.marginLeft{margin-left: 10px;}
+.alc {text-align:center;}
+.padding0 { padding:0 !important;}
+/*Extension CSS*/
+
+.loadingbar {
+    margin: 20px auto;
+    background: url(../images/progress.gif) center center;
+    height: 144px;
+    width: 144px;
+}
+.loginSocialSite{
+    margin: 20px auto;
+    height: 144px;
+    width: 244px;
+
+}

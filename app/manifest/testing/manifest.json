@@ -1,0 +1,45 @@
+{
+    "name": "HelloWorld-testing",
+    "version": "0.0.4",
+    "manifest_version": 2,
+    "description": "__MSG_appDescription__",
+    "icons": {
+        "16": "images/icon.png",
+        "128": "images/icon.png"
+    },
+    "default_locale": "en",
+    "background": {
+        "page": "background.html"
+    },
+    "browser_action": {
+        "default_icon": {
+            "19": "images/icon.png",
+            "38": "images/icon.png"
+        },
+        "default_title": "HelloWorld-testing",
+        "default_popup": "popup.html"
+    },
+    "options_page": "options.html",
+    "omnibox": {
+        "keyword": "HelloWorld"
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "*://dev.HelloWorld.co/*"
+            ],
+            "js": [
+                "scripts/contentscript.js"
+            ],
+            "run_at": "document_start",
+            "all_frames": false
+        }
+    ],
+    "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'",
+    "permissions": [
+        "tabs",
+        "notifications",
+        "background",
+        "cookies"
+    ]
+}

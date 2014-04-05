@@ -1,0 +1,24 @@
+grunt update-build-version --target=testing
+grunt update-build-version --target=demo
+grunt update-build-version --target=prod
+
+grunt prepare --target=testing
+r.js -o background-build.js
+r.js -o popup-build.js
+grunt publish --target=testing
+
+
+
+grunt prepare --target=demo
+r.js -o background-build.js
+r.js -o popup-build.js
+grunt publish --target=demo
+
+
+grunt prepare --target=prod
+r.js -o background-build.js
+r.js -o popup-build.js
+grunt publish --target=prod
+
+grunt
+
