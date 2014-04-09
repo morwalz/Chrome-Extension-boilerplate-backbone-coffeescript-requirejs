@@ -9,7 +9,5 @@ define(['jquery',
       thisType = @__proto__?.constructor?.name
       console.log "[E][C][#{thisType}]:\t #{event}"  if OH?.verbose?.match /vvvv/i
 
-
-
   Collection
 )

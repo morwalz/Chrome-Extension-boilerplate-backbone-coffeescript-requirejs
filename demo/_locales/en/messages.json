@@ -1,10 +1,10 @@
 {
   "appName": {
-    "message": "HelloWorld",
-    "description": "MOOCs (Massive Open Online Courses) with 24/7 access to experienced teaching assistants."
+    "message": "HelloWorld App",
+    "description": "Bolierplate app."
   },
   "appDescription": {
-    "message": "HelloWorld",
-    "description": "MOOCs (Massive Open Online Courses) with 24/7 access to experienced teaching assistants."
+    "message": "HelloWorld App",
+    "description": "Bolierplate app."
   }
 }

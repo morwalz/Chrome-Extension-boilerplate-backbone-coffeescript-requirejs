@@ -2,7 +2,6 @@
 require.config
   baseURL: 'dist/scripts',
 
-
   paths:
     jQuery: "../lib/js/jquery/jquery" # amd version
     Underscore: "../lib/js/underscore-amd/underscore" # amd version
