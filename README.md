@@ -10,7 +10,7 @@ INSTALLATION
 
   The boilerplate works out of the box, so start by installing it in Chrome:
 
-  - git clone git://https://quirejs.git my-project-name
+  - git clone git://https://github.com/morwalz/Chrome-Extension-boilerplate-backbone-coffeescript-requirejs.git my-project-name
   - Visit chrome://extensions and expand "Development mode" (top right).
   - Choose "Load unpacked extension ..." and point to the new project directory.
   - It's installed! You should see a new button in your address bar. Click it!
@@ -29,6 +29,4 @@ CUSTOMIZATION
 
 WHO MADE THIS?
 
-  Michael Mahemoff (http://mahemoff.com). I was previously working in Google's
-  Chrome team, but am no longer at Google and this is not an official
-  Google/Chrome project.
+  Shankar Morwal (http://morwalz.com).
